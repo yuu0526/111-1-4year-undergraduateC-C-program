@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int integer1;
+    int integer2;
+
+    printf( "enter first integer\n ");
+    scanf_s( "%d", &integer1);
+
+    printf("enter first integer\n ");
+    scanf_s( "%d", &integer2);
+
+    int sum;
+    sum = integer1 + integer2;
+    printf("sum is %d\n ",sum );
+
+    int sub;
+    sub = integer1 - integer2;
+    printf("sub is %d\n", sub);
+
+    int mul;
+    mul = integer1 * integer2;
+    printf("mul is %d\n", mul);
+
+    int div;
+    div = integer1 / integer2;
+    printf("div is %d\n", div);
+
+    int rem;
+    rem = integer1 % integer2;
+    printf("rem is %d\n", rem);
