@@ -1,0 +1,28 @@
+
+#include <stdio.h>
+
+int main(void)
+
+{
+    int integer1;//v
+    int integer2;//a
+    int integer3;//e
+
+    printf("enter first integer\n ");
+    scanf_s("%d", &integer1);
+
+    printf("enter first integer\n ");
+    scanf_s("%d", &integer2);
+
+    printf("enter first integer\n ");
+    scanf_s("%d", &integer3);
+
+    int v;
+    v = integer1 + integer2 * integer3;
+    printf("v is %d\n ", v);
+
+    int s;
+    s= integer1 * integer3 + 2/1 * integer2 * integer3 *2;
+    printf("s is %d\n ", s);
+ 
+}
