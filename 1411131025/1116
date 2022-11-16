@@ -1,0 +1,20 @@
+
+Disolaying a histogram
+#include estdio.ks
+#define sIzE 5
+void star(int b[1, int);
+(// function main begins program execution
+Bint main(void)
+// use initializer list to initialize array n
+int n[STEl = 1 19, 3, 15, 7, 113.05,5
+printf("$s$13s$17s\n", "Element"
+"Value"
+"His tog ram"):
+// for each element of array n, output a bar of the histogram
+for (i = 0; i = SIZE; ++i) (
+i ati13s
+star(n, n[il);
+puts(mm)s7/ end a histogram bar with a hewrine
+Avoid star(int b[J, int size)
+int i
+for Ki = 15 -SIces +-53 6 7/ pent one bar
